@@ -1,0 +1,12 @@
+What We'll learn
+
+* Navigating the DOM Selector and the Query Selector
+* Changing the DOM / Manipulating HTML elements, contents & CSS
+* Interacting with forms & events (submit, click, keypress)
+* Creating new elements via JS and insert them into the DOM
+* Creating mini reading list app
+
+https://github.com/iamshaunjp/JavaScript-DOM-Tutorial/tree/master
+
+1. getElementById('page-banner');
+2. converting to array Array.from(title)

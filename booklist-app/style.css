@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td, th {
+    border: 1px solid #000;
+    padding: 0.5rem;
+    text-align: left;
+}
+
+.danger {
+    color: red;
+}
+
+.success {
+    color: blue;
+}
