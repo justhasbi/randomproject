@@ -1,0 +1,106 @@
+img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  main {
+    height: 100vh;
+    width: 100%;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    left: 0;
+    padding: 5px 40px 0;
+  }
+  
+  main .container header h1 {
+    font-family: Nunito;
+    font-size: 1.5rem;
+  }
+  
+  main .container header select {
+    font-size: 1.2rem;
+    padding: 5px;
+    font-family: Poppins;
+    text-transform: capitalize;
+  }
+  
+  main .img-container {
+    width: 100%;
+    margin-top: 5%;
+    padding: 2em 0;
+  }
+  
+  /* animation for the dog spinner */
+  main .img-container .spinner {
+    font-size: 50px;
+    animation: spin 2s linear infinite;
+    display: none;
+  }
+  
+  main .img-container .dog-img {
+    display: none;
+    width: 80%;
+    margin: 1em auto;
+  }
+  
+  main .img-container .show {
+    display: block;
+  }
+  
+  
+  /* rotate the dog spinner 360deg - keyframes */
+  @keyframes spin {
+    to {
+      -webkit-transform: rotateZ(360deg);
+              transform: rotateZ(360deg);
+    }
+  }
+  
+  
+  /* media query */
+  
+  @media only screen and (min-width: 320px) {
+    .container header {
+      display: flex;
+      flex-direction: column;
+    }
+    .container header h1 {
+      margin-bottom: 20px;
+    }
+  }
+  
+  @media only screen and (min-width: 650px) {
+    .container header {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      flex-direction: row;
+    }
+  }
+  
+  @media only screen and (min-width: 875px) {
+    .container {
+      max-width: 80%;
+      margin: 0 auto;
+    }
+  }
+  
+  @media only screen and (min-width: 1600px) {
+    .container {
+      max-width: 70%;
+      margin: 0 auto;
+    }
+  }
+  
